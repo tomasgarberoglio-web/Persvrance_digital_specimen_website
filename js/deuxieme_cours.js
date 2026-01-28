@@ -23,23 +23,23 @@ let Grille = 0;
 function preload(){
   sound = loadSound('sound/strudel.mp3');
 
-  font = loadFont('Polices/Persvrance-SymbolesDot.otf');
-  font1 = loadFont('Polices/Persvrance-SymbolesCarre.otf');
-  font2 = loadFont('Polices/Persvrance-SymbolesCarreFusion.otf');
-  font3 = loadFont('Polices/Persvrance-SymbCarreFusion-SemiBold.otf');
-  font4 = loadFont('Polices/Persvrance-SymbCarreFusion-Bold.otf');
-  font5 = loadFont('Polices/Persvrance-SymbCarreFusion-Black.otf');
-  font6 = loadFont('Polices/Persvrance-SymbCarreFusion-BlackPlus.otf');
+  font = loadFont('polices/Persvrance-SymbolesDot.otf');
+  font1 = loadFont('polices/Persvrance-SymbolesCarre.otf');
+  font2 = loadFont('polices/Persvrance-SymbolesCarreFusion.otf');
+  font3 = loadFont('polices/Persvrance-SymbCarreFusion-SemiBold.otf');
+  font4 = loadFont('polices/Persvrance-SymbCarreFusion-Bold.otf');
+  font5 = loadFont('polices/Persvrance-SymbCarreFusion-Black.otf');
+  font6 = loadFont('polices/Persvrance-SymbCarreFusion-BlackPlus.otf');
 
-  Font = loadFont('Polices/Persvrance-Dot.otf');
-  Font1 = loadFont('Polices/Persvrance-Carre.otf');
-  Font2 = loadFont('Polices/Persvrance-Fusion-Regular.otf');
-  Font3 = loadFont('Polices/Persvrance-Fusion-SemiBold.otf');
-  Font4 = loadFont('Polices/Persvrance-Fusion-Black.otf');
-  Font5 = loadFont('Polices/Persvrance-Carre45-regular.otf');
-  Font6 = loadFont('Polices/Persvrance-Carre45Fusion.otf');
-  Font7 = loadFont('Polices/Persvrance-Carre45Fusion-SemiBold.otf');
-  Font8 = loadFont('Polices/Persvrance-Carre45Fusion-Black.otf');
+  Font = loadFont('polices/Persvrance-Dot.otf');
+  Font1 = loadFont('polices/Persvrance-Carre.otf');
+  Font2 = loadFont('polices/Persvrance-Fusion-Regular.otf');
+  Font3 = loadFont('polices/Persvrance-Fusion-SemiBold.otf');
+  Font4 = loadFont('polices/Persvrance-Fusion-Black.otf');
+  Font5 = loadFont('polices/Persvrance-Carre45-regular.otf');
+  Font6 = loadFont('polices/Persvrance-Carre45Fusion.otf');
+  Font7 = loadFont('polices/Persvrance-Carre45Fusion-SemiBold.otf');
+  Font8 = loadFont('polices/Persvrance-Carre45Fusion-Black.otf');
 }
 
 function setup() {
@@ -377,4 +377,5 @@ else if (mouseX > 1000) {
 }
 }
 }
+
 
